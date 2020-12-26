@@ -1,5 +1,5 @@
 
-import Login from "./screens/Login";
+import Login from "./screens/login/Login";
 import Register from "./screens/register/register";
 import {BrowserRouter as Router, Link,Redirect, Route, Switch} from "react-router-dom";
 import Principal from "./screens/principal/principal";
