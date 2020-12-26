@@ -82,10 +82,11 @@ flex-direction: column;
 
 }
 
-.seconnecter, .register span{
+.seconnecter, .register a{
     color:gray;
     font-size: 1rem;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .register {

@@ -1,31 +1,35 @@
-import './Login.css'
+import './register.css'
 import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
-const Login = ()=> {
+
+const Register = ()=> {
     return (
         <div className={'container'}>
-
-            
 
               <div className={'card'}>
 
         
             <div className={'title'}>
-                <span className={'title-text'}>Login</span>
+                <span className={'title-text'}>Register</span>
                 
             </div>
 
            <div className={'inputs'}>
-               <input className={'input'} placeholder={'Login'}></input> 
+
+               <input className={'input'} placeholder={'Nom'}></input>
+               <input className={'input'} placeholder={'prenom'}></input> 
                <input className={'input'}  placeholder={'Password'}></input>
            </div>
 
            <div className={'actions'}>
+
+
+
 <div className={'seconnecter'}>
-<span>Se connecter</span>
+<span>Sinscrire</span>
 </div>
 
 <div className={'register'}>
-<Link to="/register">Sinscrire</Link>
+<Link to="/login">Se connecter</Link>
 </div>
 
            </div>
@@ -34,7 +38,6 @@ const Login = ()=> {
 
         </div>
     )
-}
-export default Login;
+        }
 
-
+        export default Register;
