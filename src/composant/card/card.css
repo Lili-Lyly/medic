@@ -1,0 +1,54 @@
+.card {
+
+    width: 18.3rem;
+    height: 30rem;
+    background-color: white;
+    border-radius: 4%;
+    margin-top: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-container-img {
+
+    width: 100%;
+    height: 15rem;
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    
+
+}
+.nouv-card-description {
+     font-size: 1rem;
+     margin-top: 1rem;
+
+}
+
+.nouv-card-actions {
+
+width: 100%;
+height: 3rem;
+justify-content: space-around;
+display: flex;
+align-items: center;
+margin-top: 2rem;
+
+}
+
+
+.nouv-card-btn {
+    width: 33%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: .2rem;
+    cursor: pointer;
+
+}
+
+.nouv-card-btn:hover{
+    background-color: green;
+}

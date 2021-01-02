@@ -46,7 +46,6 @@ const Search =() => {
 </div>
 
 <img style={{transform: degree}}
-
      onMouseOver={changeRotation}
      onMouseLeave={reset}
      src={arrow} className={'arrow'}/>
